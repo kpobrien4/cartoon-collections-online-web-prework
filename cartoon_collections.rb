@@ -9,18 +9,18 @@ end
 def summon_captain_planet# code an argument here
   # Your code here
   planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-  array.collect do |word| 
+  array.collect do |word|
      word.capitalize + "!"
-  end 
+  end
 end
 
 def long_planeteer_calls# code an argument here
   # Your code here
   short_words = ["puff", "go", "two"]
  assorted_words = ["two", "go", "industrious", "bop"]
-  array.any? do |word| 
-     word.length > 4 
-   end 
+  array.any? do |word|
+     word.length > 4
+   end
 end
 
 def find_the_cheese# code an argument here
@@ -31,8 +31,8 @@ soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
 ingredients = ["garlic", "bread", "rosemary"]
 
 def find_the_cheese(array)
-  array.find do |cheese| 
+  array.find do |cheese|
     cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"
-    end 
-  end 
+    end
+  end
 end
